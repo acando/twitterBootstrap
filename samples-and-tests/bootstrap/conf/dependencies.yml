@@ -2,8 +2,8 @@
 
 require:
     - play
-    - play -> less 0.3
-    - localModule -> twitterBootstrap 1.2.0 
+    - play -> less 0.9.1
+    - localModule -> twitterBootstrap 2.0.3 
 
 repositories:
     - localModule:

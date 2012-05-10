@@ -11,8 +11,8 @@ The module is versioned against tags of twitter-bootstrap in github, starting wi
 add this to your conf/dependencies.yml file:
 
 pre. 		require:
-    			- play -> less 0.3
-    			- play -> twitterBootstrap 1.2.0
+    			- play -> less 0.9.1
+    			- play -> twitterBootstrap 2.0.3
 
 define a route to the module in conf/routes (above the catch-all route). You can use any prefix to refer to the module, in this case we will use the prefix "twitter"
     
@@ -24,7 +24,7 @@ pre.    	    	<link rel="stylesheet" media="screen" href="/twitter/bootstrap.les
 
 *Modifying the generated CSS*
 
-You can edit any of the .less files in modules/twitterBootstrap-1.2.0/public and the less plugin will automatically recompile the css.
+You can edit any of the .less files in modules/twitterBootstrap-2.0.3/public and the less plugin will automatically recompile the css.
 
 
  
